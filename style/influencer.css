@@ -31,3 +31,41 @@ nav li{
     padding-right: 30px;
     margin-top: 60px;
 }
+/* banner section */
+.banner-title{
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 52px;
+font-weight: 700;
+line-height: 70px; 
+width: 582px;
+height: 133px;
+padding-left: 120px;
+}
+.banner-description{
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+padding-left: 120px;
+width: 505px;
+height: 60.9px;
+
+
+}
+.banner-button{
+
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+border-radius: 41px;
+background: #E02C6D;
+
+padding: 10px 24px;
+margin-left: 110px ;
+margin-bottom: auto;
+}
+.main{
+    display: flex;
+}
