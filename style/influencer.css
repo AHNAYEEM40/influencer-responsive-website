@@ -10,6 +10,9 @@ padding-left: 120px;
     font-size: 2rem;
     font-weight: 600;
     color: #131313;
+    width: 440px;
+    height: 306px;
+    grid-row: 10px;
 }
 nav {
     display:flex;
@@ -20,7 +23,7 @@ nav {
 .sing-up{
     display: flex;
     justify-content:space-between;
-    align-items:center;
+    align-items:right;
     
 }
 nav li{
@@ -32,6 +35,22 @@ nav li{
     margin-top: 60px;
 }
 /* banner section */
+.banner {
+
+display: flex;
+
+
+
+
+}
+.banner-img{
+   display:flex;
+background-image: url(../images/Circle\ design.svg);
+background-repeat: no-repeat;
+
+    
+
+}
 .banner-title{
     color: #3A3A3A;
 font-family: Poppins;
@@ -66,6 +85,25 @@ padding: 10px 24px;
 margin-left: 110px ;
 margin-bottom: auto;
 }
-.main{
-    display: flex;
+/* sponser section */
+
+.sponser{
+   margin-left: 110px;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.sponser img{
+ 
+justify-content: space-between;
+align-items:center;
+gap: 50px;
+}
+@media screen and (max-width:576px) {
+    .banner , .banner-button, .banner-description,.banner-title{
+      flex-direction: column-reverse;
+      margin-left: 0px ;
+      padding-left: 0px;
+    }
+  
+
 }
