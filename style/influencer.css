@@ -88,21 +88,66 @@ margin-bottom: auto;
 /* sponser section */
 
 .sponser{
-   margin-left: 110px;
-    justify-content: space-evenly;
-    gap: 10px;
+   margin-left: -30px;
+   display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+    padding-left: 165px;
+padding-right: 165px;
 }
 .sponser img{
  
 justify-content: space-between;
 align-items:center;
-gap: 50px;
+
 }
+/* product section  */
+.grosare{
+    margin-top: 100px;
+    padding-left:570px ;
+    padding-right: 570px;
+}
+.food{
+    justify-content: center;
+    margin-left: 110px;
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.food p , h3 {
+    margin-left: 10px;
+}
+.food img{
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.product-section{
+    display: flex;
+    margin-top: 20px;
+    row-gap: 50px;
+}
+/* .star{
+ justify-content: space-evenly;
+ gap:5px
+} */
 @media screen and (max-width:576px) {
-    .banner , .banner-button, .banner-description,.banner-title{
+    .banner , .banner-button, .banner-description,.banner-title {
       flex-direction: column-reverse;
       margin-left: 0px ;
       padding-left: 0px;
+    }
+    .sponser{
+        margin-left:0px;
+        gap: 10px;
+    }
+    .product-section{
+        flex-direction: column;
+        margin-left:0px;
+        
     }
   
 
